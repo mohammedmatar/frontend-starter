@@ -1,6 +1,6 @@
-/** function mola */
+/** function toaster configs*/
 
-export function config ($logProvider, toastrConfig) {
+export default function ($logProvider, toastrConfig) {
   'ngInject';
   // Enable log
   $logProvider.debugEnabled(true);
