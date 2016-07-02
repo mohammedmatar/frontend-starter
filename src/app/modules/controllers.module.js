@@ -6,8 +6,9 @@
 * _______________________
 * angular controllers
 */
-import { MainController } from '../main/main.controller';
 
-export default angular.module('frontend.cotrollers', [])
-  .controller('MainController', MainController)
+import { HomePageController } from '../pages/home/home.controller';
+
+export default angular.module('frontend.controllers', [])
+  .controller('HomePageController', HomePageController)
   ;

@@ -1,4 +1,3 @@
-/* global malarkey:false, moment:false */
 /**
  * @ngdoc overview
  * @name app
@@ -26,6 +25,6 @@ angular.module('frontend', [
    configs.name,
    runs.name
 ])
-  .constant('malarkey', malarkey)
-  .constant('moment', moment)
+  // .constant('malarkey', malarkey)
+  // .constant('moment', moment)
 ;

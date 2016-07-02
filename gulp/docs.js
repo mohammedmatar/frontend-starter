@@ -15,12 +15,13 @@ var gulp = require('gulp'),
 gulp.task('ngdocs', [], function () {
   var gulpDocs = require('gulp-ngdocs');
   var options = {
-    scripts: [
-      'bower_components/angular/angular.min.js',
-      'bower_components/angular/angular.min.js.map',
-      'bower_components/angular-animate/angular-animate.min.js',
-      'bower_components/angular-animate/angular-animate.min.js.map'
-    ],
+    // scripts: [
+      // 'bower_components/angular/angular.min.js',
+      // 'bower_components/angular/angular.min.js.map',
+      // 'bower_components/angular-animate/angular-animate.min.js',
+      // 'bower_components/angular-animate/angular-animate.min.js.map',
+      // 'bower_components/marked/marked.min.js'
+    // ],
     html5Mode: true,
     startPage: '/api',
     title: "Frontend Docs",
