@@ -23,6 +23,15 @@ NG_DOCS={
     },
     {
       "section": "api",
+      "id": "configs",
+      "shortName": "configs",
+      "type": "overview",
+      "moduleName": "configs",
+      "shortDescription": "frontend.configs",
+      "keywords": "_______________________ api configs frontend overview"
+    },
+    {
+      "section": "api",
       "id": "controllers",
       "shortName": "controllers",
       "type": "overview",
@@ -47,6 +56,15 @@ NG_DOCS={
       "moduleName": "directives",
       "shortDescription": "frontend.directives",
       "keywords": "_______________________ angular api directives frontend overview"
+    },
+    {
+      "section": "api",
+      "id": "runs",
+      "shortName": "runs",
+      "type": "overview",
+      "moduleName": "runs",
+      "shortDescription": "frontend.runs",
+      "keywords": "_______________________ api frontend overview runs"
     },
     {
       "section": "api",
